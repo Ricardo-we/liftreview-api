@@ -12,9 +12,9 @@ class WeightHistoryUseCase:
     # Crear historial de peso
     async def create_weight_history(self, user_id: int, weight_data: WeightHistoryCreate) -> WeightHistory:
         weight_history = WeightHistory(user_id=user_id, weight=weight_data.weight, date=date.today())
-        return await self.weight_history_repo.create(weight_history)
+        return await self.weight_history_repository.create(weight_history)
 
     # Obtener historial de peso por usuario
     async def get_weight_history(self, user_id: int) -> list[WeightHistory]:
-        return await self.weight_history_repo.get_by_user(user_id)
+        return await self.weight_history_repository.get_by_user(user_id)
     

@@ -24,13 +24,13 @@ class UserModel(Model):
             gender=self.gender,
             password=self.password,
             weight_history=[
-                wh.to_domain() for wh in self.weight_histories
-            ] if hasattr(self, "weight_histories") else []
+                wh.to_domain() for wh in self.weight_history
+            ] if hasattr(self, "weight_history") else []
         )
 
 class WeightHistoryModel(Model):
     id = fields.IntField(pk=True)
-    user = fields.ForeignKeyField("models.UserModel", related_name="weight_histories")
+    user = fields.ForeignKeyField("models.UserModel", related_name="weight_histories", on_delete=fields.CASCADE)
     weight = fields.FloatField()
     date = fields.DateField()
 

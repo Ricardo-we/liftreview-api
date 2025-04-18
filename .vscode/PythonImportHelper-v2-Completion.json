@@ -169,6 +169,110 @@
         "documentation": {}
     },
     {
+        "label": "User",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistory",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistory",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistory",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistory",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistory",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistory",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
         "label": "dataclass",
         "importPath": "dataclasses",
         "description": "dataclasses",
@@ -214,102 +318,6 @@
         "description": "abc",
         "isExtraImport": true,
         "detail": "abc",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "src.users.domain.entities",
-        "description": "src.users.domain.entities",
-        "isExtraImport": true,
-        "detail": "src.users.domain.entities",
-        "documentation": {}
-    },
-    {
-        "label": "WeightHistory",
-        "importPath": "src.users.domain.entities",
-        "description": "src.users.domain.entities",
-        "isExtraImport": true,
-        "detail": "src.users.domain.entities",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "src.users.domain.entities",
-        "description": "src.users.domain.entities",
-        "isExtraImport": true,
-        "detail": "src.users.domain.entities",
-        "documentation": {}
-    },
-    {
-        "label": "WeightHistory",
-        "importPath": "src.users.domain.entities",
-        "description": "src.users.domain.entities",
-        "isExtraImport": true,
-        "detail": "src.users.domain.entities",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "src.users.domain.entities",
-        "description": "src.users.domain.entities",
-        "isExtraImport": true,
-        "detail": "src.users.domain.entities",
-        "documentation": {}
-    },
-    {
-        "label": "WeightHistory",
-        "importPath": "src.users.domain.entities",
-        "description": "src.users.domain.entities",
-        "isExtraImport": true,
-        "detail": "src.users.domain.entities",
-        "documentation": {}
-    },
-    {
-        "label": "WeightHistory",
-        "importPath": "src.users.domain.entities",
-        "description": "src.users.domain.entities",
-        "isExtraImport": true,
-        "detail": "src.users.domain.entities",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "src.users.domain.entities",
-        "description": "src.users.domain.entities",
-        "isExtraImport": true,
-        "detail": "src.users.domain.entities",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "src.users.domain.entities",
-        "description": "src.users.domain.entities",
-        "isExtraImport": true,
-        "detail": "src.users.domain.entities",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "src.users.domain.entities",
-        "description": "src.users.domain.entities",
-        "isExtraImport": true,
-        "detail": "src.users.domain.entities",
-        "documentation": {}
-    },
-    {
-        "label": "WeightHistory",
-        "importPath": "src.users.domain.entities",
-        "description": "src.users.domain.entities",
-        "isExtraImport": true,
-        "detail": "src.users.domain.entities",
-        "documentation": {}
-    },
-    {
-        "label": "WeightHistory",
-        "importPath": "src.users.domain.entities",
-        "description": "src.users.domain.entities",
-        "isExtraImport": true,
-        "detail": "src.users.domain.entities",
         "documentation": {}
     },
     {
@@ -656,7 +664,7 @@
         "kind": 6,
         "importPath": "src.users.infrastructure.database.models",
         "description": "src.users.infrastructure.database.models",
-        "peekOfCode": "class WeightHistoryModel(Model):\n    id = fields.IntField(pk=True)\n    user = fields.ForeignKeyField(\"models.UserModel\", related_name=\"weight_histories\")\n    weight = fields.FloatField()\n    date = fields.DateField()\n    def to_domain(self) -> WeightHistory:\n        return WeightHistory(\n            id=self.id,\n            user_id=self.user_id,\n            weight=self.weight,",
+        "peekOfCode": "class WeightHistoryModel(Model):\n    id = fields.IntField(pk=True)\n    user = fields.ForeignKeyField(\"models.UserModel\", related_name=\"weight_histories\", on_delete=fields.CASCADE)\n    weight = fields.FloatField()\n    date = fields.DateField()\n    def to_domain(self) -> WeightHistory:\n        return WeightHistory(\n            id=self.id,\n            user_id=self.user_id,\n            weight=self.weight,",
         "detail": "src.users.infrastructure.database.models",
         "documentation": {}
     },
@@ -701,7 +709,7 @@
         "kind": 2,
         "importPath": "src.users.interfaces.weight_history_api",
         "description": "src.users.interfaces.weight_history_api",
-        "peekOfCode": "def get_usecase():\n    return WeightHistoryUseCase(SqlWeightHistoryRepository())\n@router.post(\"/\", response_model=WeightHistoryOut)\nasync def create_weight_history(weight: WeightHistoryCreate, user: User = Depends(AuthService.get_current_user), use_case: WeightHistoryUseCase = Depends(get_usecase)):\n    return await use_case.create_weight_history(user.id, weight)\n# Ruta para obtener el historial de peso del usuario\n@router.get(\"/\", response_model=list[WeightHistoryOut])\nasync def get_weight_history(user: User = Depends(AuthService.get_current_user), use_case: WeightHistoryUseCase = Depends(get_usecase)):\n    return await use_case.get_weight_history(user.id)",
+        "peekOfCode": "def get_usecase():\n    return WeightHistoryUseCase(SqlWeightHistoryRepository())\n@router.post(\"/\", response_model=WeightHistoryOut)\nasync def create_weight_history(\n    weight: WeightHistoryCreate,\n    user: User = Depends(AuthService.get_current_user),\n    use_case: WeightHistoryUseCase = Depends(get_usecase)\n):\n    return await use_case.create_weight_history(user.id, weight)\n@router.get(\"/\", response_model=list[WeightHistoryOut])",
         "detail": "src.users.interfaces.weight_history_api",
         "documentation": {}
     },
@@ -710,7 +718,7 @@
         "kind": 5,
         "importPath": "src.users.interfaces.weight_history_api",
         "description": "src.users.interfaces.weight_history_api",
-        "peekOfCode": "router = APIRouter(prefix=\"/weight-history\", tags=[\"weight-history\"])\ndef get_usecase():\n    return WeightHistoryUseCase(SqlWeightHistoryRepository())\n@router.post(\"/\", response_model=WeightHistoryOut)\nasync def create_weight_history(weight: WeightHistoryCreate, user: User = Depends(AuthService.get_current_user), use_case: WeightHistoryUseCase = Depends(get_usecase)):\n    return await use_case.create_weight_history(user.id, weight)\n# Ruta para obtener el historial de peso del usuario\n@router.get(\"/\", response_model=list[WeightHistoryOut])\nasync def get_weight_history(user: User = Depends(AuthService.get_current_user), use_case: WeightHistoryUseCase = Depends(get_usecase)):\n    return await use_case.get_weight_history(user.id)",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/weight-history\",\n    tags=[\"weight-history\"],\n)\ndef get_usecase():\n    return WeightHistoryUseCase(SqlWeightHistoryRepository())\n@router.post(\"/\", response_model=WeightHistoryOut)\nasync def create_weight_history(\n    weight: WeightHistoryCreate,\n    user: User = Depends(AuthService.get_current_user),",
         "detail": "src.users.interfaces.weight_history_api",
         "documentation": {}
     },
@@ -764,7 +772,7 @@
         "kind": 6,
         "importPath": "src.users.use_cases.weight_history_usecase",
         "description": "src.users.use_cases.weight_history_usecase",
-        "peekOfCode": "class WeightHistoryUseCase:\n    def __init__(self, weight_history_repository: WeightHistoryRepository):\n        self.weight_history_repository = weight_history_repository\n    # Crear historial de peso\n    async def create_weight_history(self, user_id: int, weight_data: WeightHistoryCreate) -> WeightHistory:\n        weight_history = WeightHistory(user_id=user_id, weight=weight_data.weight, date=date.today())\n        return await self.weight_history_repo.create(weight_history)\n    # Obtener historial de peso por usuario\n    async def get_weight_history(self, user_id: int) -> list[WeightHistory]:\n        return await self.weight_history_repo.get_by_user(user_id)",
+        "peekOfCode": "class WeightHistoryUseCase:\n    def __init__(self, weight_history_repository: WeightHistoryRepository):\n        self.weight_history_repository = weight_history_repository\n    # Crear historial de peso\n    async def create_weight_history(self, user_id: int, weight_data: WeightHistoryCreate) -> WeightHistory:\n        weight_history = WeightHistory(user_id=user_id, weight=weight_data.weight, date=date.today())\n        return await self.weight_history_repository.create(weight_history)\n    # Obtener historial de peso por usuario\n    async def get_weight_history(self, user_id: int) -> list[WeightHistory]:\n        return await self.weight_history_repository.get_by_user(user_id)",
         "detail": "src.users.use_cases.weight_history_usecase",
         "documentation": {}
     },

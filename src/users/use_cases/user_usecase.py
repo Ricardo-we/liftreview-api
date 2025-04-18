@@ -28,7 +28,6 @@ class UserUseCase:
         )
         
         created_user.weight_history = [create_weight_history]
-        
         return created_user
 
     async def login(self, email: str, password: str) -> dict | None:

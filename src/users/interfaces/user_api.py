@@ -19,3 +19,5 @@ async def create_user(user: UserCreate, use_case: UserUseCase = Depends(get_usec
 @router.post("/login")
 async def get_user(user: UserLogin, use_case: UserUseCase = Depends(get_usecase)):
     return await use_case.login(user.email, user.password)
+
+

@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from jose import JWTError, jwt
+from src.users.domain.entities import User
 
 SECRET_KEY = "super_secreta_key_123"  # guardalo como var de entorno en prod
 ALGORITHM = "HS256"
@@ -25,6 +26,7 @@ class AuthService:
             return payload
         except JWTError:
             return None
+        
     @staticmethod
     async def get_current_user(token: str = Depends(oauth2_scheme)):
         credentials_exception = HTTPException(
@@ -34,10 +36,10 @@ class AuthService:
         )
         try:
             payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
-            user_id: int = payload.get("sub")
+            user_id: int = payload.get("user_id")
             if user_id is None:
                 raise credentials_exception
-            return payload
+            return User(id=user_id, email=payload.get("email"), name=payload.get("name"), phone=payload.get("phone"), age=payload.get("age"))
         except JWTError:
             raise credentials_exception
 
