@@ -14,10 +14,20 @@ class UserModel(Model):
     password = fields.CharField(max_length=300)
 
     def to_domain(self) -> User:
-        return User(id=self.id, name=self.name, email=self.email, phone=self.phone,
-                    age=self.age, height=self.height, gender=self.gender, password=self.password)
+        return User(
+            id=self.id,
+            name=self.name,
+            email=self.email,
+            phone=self.phone,
+            age=self.age,
+            height=self.height,
+            gender=self.gender,
+            password=self.password,
+            weight_history=[
+                wh.to_domain() for wh in self.weight_histories
+            ] if hasattr(self, "weight_histories") else []
+        )
 
-# Modelo Tortoise para Historial de Peso
 class WeightHistoryModel(Model):
     id = fields.IntField(pk=True)
     user = fields.ForeignKeyField("models.UserModel", related_name="weight_histories")
@@ -25,4 +35,9 @@ class WeightHistoryModel(Model):
     date = fields.DateField()
 
     def to_domain(self) -> WeightHistory:
-        return WeightHistory(id=self.id, user_id=self.user.id, weight=self.weight, date=self.date)
+        return WeightHistory(
+            id=self.id,
+            user_id=self.user_id,
+            weight=self.weight,
+            date=self.date
+        )

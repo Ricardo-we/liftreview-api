@@ -4,6 +4,13 @@ from typing import Optional
 from datetime import date
 
 @dataclass
+class WeightHistory:
+    user_id: int
+    weight: float
+    date: date
+    id: Optional[int] = None
+
+@dataclass
 class User:
     name: str
     email: str
@@ -13,10 +20,5 @@ class User:
     height: Optional[float] = None
     gender: Optional[str] = None
     password: Optional[str] = None
+    weight_history: Optional[list[WeightHistory]] = None
 
-@dataclass
-class WeightHistory:
-    user_id: int
-    weight: float
-    date: date
-    id: Optional[int] = None

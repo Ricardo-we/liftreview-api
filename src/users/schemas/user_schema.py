@@ -11,6 +11,7 @@ class UserCreate(BaseModel):
     height: Optional[float] = None
     gender: Optional[str] = None
     password: Optional[str] = None
+    weight: Optional[float] = None
 
 class UserLogin(BaseModel):
     email: str

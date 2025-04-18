@@ -33,6 +33,10 @@ class SqlUserRepository(UserRepository):
         return user_model.to_domain()
 
     async def get_by_email(self, email: str) -> User:
-        user_model = await UserModel.get(email=email)
+        user_model = await UserModel.get(email=email).prefetch_related("weight_histories")
         return user_model.to_domain()
+    
+    async def get_weight_history(self, user_id: int) -> list[WeightHistory]:
+        weight_history_models = await WeightHistoryModel.filter(user_id=user_id).all()
+        return [weight_history_model.to_domain() for weight_history_model in weight_history_models]
     
