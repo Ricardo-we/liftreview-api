@@ -1,22 +1,21 @@
 from tortoise import fields
 from tortoise.models import Model
-from domain.entities import User, WeightHistory
-from domain.repository import UserRepository, WeightHistoryRepository
-from tortoise.exceptions import DoesNotExist
+from src.users.domain.entities import User, WeightHistory
 
 # Modelo Tortoise para Usuario
 class UserModel(Model):
     id = fields.IntField(pk=True)
     name = fields.CharField(max_length=100)
-    email = fields.CharField(max_length=100)
+    email = fields.CharField(max_length=255, unique=True)
     phone = fields.CharField(max_length=15, null=True)
     age = fields.IntField(null=True)
     height = fields.FloatField(null=True)
     gender = fields.CharField(max_length=10, null=True)
+    password = fields.CharField(max_length=300)
 
     def to_domain(self) -> User:
         return User(id=self.id, name=self.name, email=self.email, phone=self.phone,
-                    age=self.age, height=self.height, gender=self.gender)
+                    age=self.age, height=self.height, gender=self.gender, password=self.password)
 
 # Modelo Tortoise para Historial de Peso
 class WeightHistoryModel(Model):

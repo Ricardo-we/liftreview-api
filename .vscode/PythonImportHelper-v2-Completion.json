@@ -1,0 +1,607 @@
+[
+    {
+        "label": "BaseDBAsyncClient",
+        "importPath": "tortoise",
+        "description": "tortoise",
+        "isExtraImport": true,
+        "detail": "tortoise",
+        "documentation": {}
+    },
+    {
+        "label": "fields",
+        "importPath": "tortoise",
+        "description": "tortoise",
+        "isExtraImport": true,
+        "detail": "tortoise",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistory",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistory",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistory",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistory",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistory",
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "isExtraImport": true,
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "Model",
+        "importPath": "tortoise.models",
+        "description": "tortoise.models",
+        "isExtraImport": true,
+        "detail": "tortoise.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "src.users.domain.repository",
+        "description": "src.users.domain.repository",
+        "isExtraImport": true,
+        "detail": "src.users.domain.repository",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistoryRepository",
+        "importPath": "src.users.domain.repository",
+        "description": "src.users.domain.repository",
+        "isExtraImport": true,
+        "detail": "src.users.domain.repository",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistoryRepository",
+        "importPath": "src.users.domain.repository",
+        "description": "src.users.domain.repository",
+        "isExtraImport": true,
+        "detail": "src.users.domain.repository",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "importPath": "src.users.domain.repository",
+        "description": "src.users.domain.repository",
+        "isExtraImport": true,
+        "detail": "src.users.domain.repository",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistoryRepository",
+        "importPath": "src.users.domain.repository",
+        "description": "src.users.domain.repository",
+        "isExtraImport": true,
+        "detail": "src.users.domain.repository",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "importPath": "src.users.infrastructure.database.models",
+        "description": "src.users.infrastructure.database.models",
+        "isExtraImport": true,
+        "detail": "src.users.infrastructure.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistoryModel",
+        "importPath": "src.users.infrastructure.database.models",
+        "description": "src.users.infrastructure.database.models",
+        "isExtraImport": true,
+        "detail": "src.users.infrastructure.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistoryModel",
+        "importPath": "src.users.infrastructure.database.models",
+        "description": "src.users.infrastructure.database.models",
+        "isExtraImport": true,
+        "detail": "src.users.infrastructure.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UserUseCase",
+        "importPath": "src.users.use_cases.user_usecase",
+        "description": "src.users.use_cases.user_usecase",
+        "isExtraImport": true,
+        "detail": "src.users.use_cases.user_usecase",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "src.users.schemas.user_schema",
+        "description": "src.users.schemas.user_schema",
+        "isExtraImport": true,
+        "detail": "src.users.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogin",
+        "importPath": "src.users.schemas.user_schema",
+        "description": "src.users.schemas.user_schema",
+        "isExtraImport": true,
+        "detail": "src.users.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistoryOut",
+        "importPath": "src.users.schemas.user_schema",
+        "description": "src.users.schemas.user_schema",
+        "isExtraImport": true,
+        "detail": "src.users.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistoryCreate",
+        "importPath": "src.users.schemas.user_schema",
+        "description": "src.users.schemas.user_schema",
+        "isExtraImport": true,
+        "detail": "src.users.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "src.users.schemas.user_schema",
+        "description": "src.users.schemas.user_schema",
+        "isExtraImport": true,
+        "detail": "src.users.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistoryCreate",
+        "importPath": "src.users.schemas.user_schema",
+        "description": "src.users.schemas.user_schema",
+        "isExtraImport": true,
+        "detail": "src.users.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "SqlUserRepository",
+        "importPath": "src.users.infrastructure.database.sql_user_repository",
+        "description": "src.users.infrastructure.database.sql_user_repository",
+        "isExtraImport": true,
+        "detail": "src.users.infrastructure.database.sql_user_repository",
+        "documentation": {}
+    },
+    {
+        "label": "SqlUserRepository",
+        "importPath": "src.users.infrastructure.database.sql_user_repository",
+        "description": "src.users.infrastructure.database.sql_user_repository",
+        "isExtraImport": true,
+        "detail": "src.users.infrastructure.database.sql_user_repository",
+        "documentation": {}
+    },
+    {
+        "label": "SqlWeightHistoryRepository",
+        "importPath": "src.users.infrastructure.database.sql_weight_history_repository",
+        "description": "src.users.infrastructure.database.sql_weight_history_repository",
+        "isExtraImport": true,
+        "detail": "src.users.infrastructure.database.sql_weight_history_repository",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistoryUseCase",
+        "importPath": "src.users.use_cases.weight_history_usecase",
+        "description": "src.users.use_cases.weight_history_usecase",
+        "isExtraImport": true,
+        "detail": "src.users.use_cases.weight_history_usecase",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "DoesNotExist",
+        "importPath": "tortoise.exceptions",
+        "description": "tortoise.exceptions",
+        "isExtraImport": true,
+        "detail": "tortoise.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "DoesNotExist",
+        "importPath": "tortoise.exceptions",
+        "description": "tortoise.exceptions",
+        "isExtraImport": true,
+        "detail": "tortoise.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bcrypt",
+        "description": "bcrypt",
+        "detail": "bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "register_tortoise",
+        "importPath": "tortoise.contrib.fastapi",
+        "description": "tortoise.contrib.fastapi",
+        "isExtraImport": true,
+        "detail": "tortoise.contrib.fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "src.users.interfaces.user_api",
+        "description": "src.users.interfaces.user_api",
+        "isExtraImport": true,
+        "detail": "src.users.interfaces.user_api",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "src.users.interfaces.weight_history_api",
+        "description": "src.users.interfaces.weight_history_api",
+        "isExtraImport": true,
+        "detail": "src.users.interfaces.weight_history_api",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "peekOfCode": "class User:\n    name: str\n    email: str\n    id: Optional[int] = None\n    phone: Optional[str] = None\n    age: Optional[int] = None\n    height: Optional[float] = None\n    gender: Optional[str] = None\n    password: Optional[str] = None\n@dataclass",
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistory",
+        "kind": 6,
+        "importPath": "src.users.domain.entities",
+        "description": "src.users.domain.entities",
+        "peekOfCode": "class WeightHistory:\n    user_id: int\n    weight: float\n    date: date\n    id: Optional[int] = None",
+        "detail": "src.users.domain.entities",
+        "documentation": {}
+    },
+    {
+        "label": "UserRepository",
+        "kind": 6,
+        "importPath": "src.users.domain.repository",
+        "description": "src.users.domain.repository",
+        "peekOfCode": "class UserRepository(ABC):\n    @abstractmethod\n    async def create(self, user: User) -> User:\n        pass\n    @abstractmethod\n    async def get(self, user_id: int) -> User:\n        pass\n    @abstractmethod\n    async def update(self, user: User) -> User:\n        pass",
+        "detail": "src.users.domain.repository",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistoryRepository",
+        "kind": 6,
+        "importPath": "src.users.domain.repository",
+        "description": "src.users.domain.repository",
+        "peekOfCode": "class WeightHistoryRepository(ABC):\n    @abstractmethod\n    async def create(self, weight_history: WeightHistory) -> WeightHistory:\n        pass\n    @abstractmethod\n    async def get_by_user(self, user_id: int) -> List[WeightHistory]:\n        pass",
+        "detail": "src.users.domain.repository",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "kind": 6,
+        "importPath": "src.users.infrastructure.database.models",
+        "description": "src.users.infrastructure.database.models",
+        "peekOfCode": "class UserModel(Model):\n    id = fields.IntField(pk=True)\n    name = fields.CharField(max_length=100)\n    email = fields.CharField(max_length=255, unique=True)\n    phone = fields.CharField(max_length=15, null=True)\n    age = fields.IntField(null=True)\n    height = fields.FloatField(null=True)\n    gender = fields.CharField(max_length=10, null=True)\n    password = fields.CharField(max_length=300)\n    def to_domain(self) -> User:",
+        "detail": "src.users.infrastructure.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistoryModel",
+        "kind": 6,
+        "importPath": "src.users.infrastructure.database.models",
+        "description": "src.users.infrastructure.database.models",
+        "peekOfCode": "class WeightHistoryModel(Model):\n    id = fields.IntField(pk=True)\n    user = fields.ForeignKeyField(\"models.UserModel\", related_name=\"weight_histories\")\n    weight = fields.FloatField()\n    date = fields.DateField()\n    def to_domain(self) -> WeightHistory:\n        return WeightHistory(id=self.id, user_id=self.user.id, weight=self.weight, date=self.date)",
+        "detail": "src.users.infrastructure.database.models",
+        "documentation": {}
+    },
+    {
+        "label": "SqlUserRepository",
+        "kind": 6,
+        "importPath": "src.users.infrastructure.database.sql_user_repository",
+        "description": "src.users.infrastructure.database.sql_user_repository",
+        "peekOfCode": "class SqlUserRepository(UserRepository):\n    async def create(self, user: User) -> User:\n        user_model = UserModel(\n            name=user.name, \n            email=user.email, \n            phone=user.phone, \n            age=user.age,\n            height=user.height, \n            gender=user.gender,\n            password=user.password",
+        "detail": "src.users.infrastructure.database.sql_user_repository",
+        "documentation": {}
+    },
+    {
+        "label": "SqlWeightHistoryRepository",
+        "kind": 6,
+        "importPath": "src.users.infrastructure.database.sql_weight_history_repository",
+        "description": "src.users.infrastructure.database.sql_weight_history_repository",
+        "peekOfCode": "class SqlWeightHistoryRepository(WeightHistoryRepository):\n    async def create(self, weight_history: WeightHistory) -> WeightHistory:\n        weight_history_model = WeightHistoryModel(user_id=weight_history.user_id, weight=weight_history.weight,\n                                                  date=weight_history.date)\n        await weight_history_model.save()\n        return weight_history_model.to_domain()\n    async def get_by_user(self, user_id: int) -> list[WeightHistory]:\n        histories = await WeightHistoryModel.filter(user_id=user_id).all()\n        return [history.to_domain() for history in histories]",
+        "detail": "src.users.infrastructure.database.sql_weight_history_repository",
+        "documentation": {}
+    },
+    {
+        "label": "get_usecase",
+        "kind": 2,
+        "importPath": "src.users.interfaces.user_api",
+        "description": "src.users.interfaces.user_api",
+        "peekOfCode": "def get_usecase() -> UserUseCase:\n    return UserUseCase(SqlUserRepository())\n@router.post(\"/\")\nasync def create_user(user: UserCreate, use_case: UserUseCase = Depends(get_usecase)):\n    return await use_case.create_user(user)\n@router.post(\"/login\")\nasync def get_user(user: UserLogin, use_case: UserUseCase = Depends(get_usecase)):\n    return await use_case.login(user.email, user.password)",
+        "detail": "src.users.interfaces.user_api",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.users.interfaces.user_api",
+        "description": "src.users.interfaces.user_api",
+        "peekOfCode": "router = APIRouter(prefix=\"/users\", tags=[\"users\"])\ndef get_usecase() -> UserUseCase:\n    return UserUseCase(SqlUserRepository())\n@router.post(\"/\")\nasync def create_user(user: UserCreate, use_case: UserUseCase = Depends(get_usecase)):\n    return await use_case.create_user(user)\n@router.post(\"/login\")\nasync def get_user(user: UserLogin, use_case: UserUseCase = Depends(get_usecase)):\n    return await use_case.login(user.email, user.password)",
+        "detail": "src.users.interfaces.user_api",
+        "documentation": {}
+    },
+    {
+        "label": "get_usecase",
+        "kind": 2,
+        "importPath": "src.users.interfaces.weight_history_api",
+        "description": "src.users.interfaces.weight_history_api",
+        "peekOfCode": "def get_usecase():\n    return WeightHistoryUseCase(SqlWeightHistoryRepository())\n@router.post(\"/{user_id}/weight_history\", response_model=WeightHistoryOut)\nasync def create_weight_history(user_id: int, weight: WeightHistoryCreate, use_case: WeightHistoryUseCase = Depends(get_usecase)):\n    return await use_case.create_weight_history(user_id, weight)\n@router.get(\"/{user_id}/weight_history\", response_model=list[WeightHistoryOut])\nasync def get_weight_history(user_id: int, use_case: WeightHistoryUseCase = Depends(get_usecase)):\n    return await use_case.get_weight_history(user_id)",
+        "detail": "src.users.interfaces.weight_history_api",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.users.interfaces.weight_history_api",
+        "description": "src.users.interfaces.weight_history_api",
+        "peekOfCode": "router = APIRouter(prefix=\"/weight-history\", tags=[\"weight-history\"])\ndef get_usecase():\n    return WeightHistoryUseCase(SqlWeightHistoryRepository())\n@router.post(\"/{user_id}/weight_history\", response_model=WeightHistoryOut)\nasync def create_weight_history(user_id: int, weight: WeightHistoryCreate, use_case: WeightHistoryUseCase = Depends(get_usecase)):\n    return await use_case.create_weight_history(user_id, weight)\n@router.get(\"/{user_id}/weight_history\", response_model=list[WeightHistoryOut])\nasync def get_weight_history(user_id: int, use_case: WeightHistoryUseCase = Depends(get_usecase)):\n    return await use_case.get_weight_history(user_id)",
+        "detail": "src.users.interfaces.weight_history_api",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "src.users.schemas.user_schema",
+        "description": "src.users.schemas.user_schema",
+        "peekOfCode": "class UserCreate(BaseModel):\n    name: str\n    email: str\n    phone: Optional[str] = None\n    age: Optional[int] = None\n    height: Optional[float] = None\n    gender: Optional[str] = None\n    password: Optional[str] = None\nclass UserLogin(BaseModel):\n    email: str",
+        "detail": "src.users.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogin",
+        "kind": 6,
+        "importPath": "src.users.schemas.user_schema",
+        "description": "src.users.schemas.user_schema",
+        "peekOfCode": "class UserLogin(BaseModel):\n    email: str\n    password: str\nclass WeightHistoryCreate(BaseModel):\n    weight: float\nclass WeightHistoryOut(BaseModel):\n    id: int\n    user_id: int\n    weight: float\n    date: date",
+        "detail": "src.users.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistoryCreate",
+        "kind": 6,
+        "importPath": "src.users.schemas.user_schema",
+        "description": "src.users.schemas.user_schema",
+        "peekOfCode": "class WeightHistoryCreate(BaseModel):\n    weight: float\nclass WeightHistoryOut(BaseModel):\n    id: int\n    user_id: int\n    weight: float\n    date: date\n    class Config:\n        orm_mode = True",
+        "detail": "src.users.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistoryOut",
+        "kind": 6,
+        "importPath": "src.users.schemas.user_schema",
+        "description": "src.users.schemas.user_schema",
+        "peekOfCode": "class WeightHistoryOut(BaseModel):\n    id: int\n    user_id: int\n    weight: float\n    date: date\n    class Config:\n        orm_mode = True",
+        "detail": "src.users.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserUseCase",
+        "kind": 6,
+        "importPath": "src.users.use_cases.user_usecase",
+        "description": "src.users.use_cases.user_usecase",
+        "peekOfCode": "class UserUseCase:\n    def __init__(self, user_repo: UserRepository):\n        self.user_repo = user_repo\n    async def create_user(self, user_data: UserCreate) -> User:\n        hashed_password = bcrypt.hashpw(user_data.password.encode(), bcrypt.gensalt()).decode()\n        user = User(\n            name=user_data.name, \n            email=user_data.email, \n            phone=user_data.phone,\n            age=user_data.age, ",
+        "detail": "src.users.use_cases.user_usecase",
+        "documentation": {}
+    },
+    {
+        "label": "WeightHistoryUseCase",
+        "kind": 6,
+        "importPath": "src.users.use_cases.weight_history_usecase",
+        "description": "src.users.use_cases.weight_history_usecase",
+        "peekOfCode": "class WeightHistoryUseCase:\n    def __init__(self, weight_history_repository: WeightHistoryRepository):\n        self.weight_history_repository = weight_history_repository\n    # Crear historial de peso\n    async def create_weight_history(self, user_id: int, weight_data: WeightHistoryCreate) -> WeightHistory:\n        weight_history = WeightHistory(user_id=user_id, weight=weight_data.weight, date=date.today())\n        return await self.weight_history_repo.create(weight_history)\n    # Obtener historial de peso por usuario\n    async def get_weight_history(self, user_id: int) -> list[WeightHistory]:\n        return await self.weight_history_repo.get_by_user(user_id)",
+        "detail": "src.users.use_cases.weight_history_usecase",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI()\napp.include_router(\n    user_router\n)\napp.include_router(\n    weight_history_router\n)\nregister_tortoise(\n    app,\n    db_url=\"postgres://postgres:password@localhost:5432/liftreview\",",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "TORTOISE_ORM",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "TORTOISE_ORM = {\n    \"connections\": {\n        \"default\": \"postgres://postgres:password@localhost:5432/liftreview\"\n    },\n    \"apps\": {\n        \"models\": {\n            \"models\": [\"src.users.infrastructure.database.models\", \"aerich.models\"],\n            \"default_connection\": \"default\",\n        },\n    },",
+        "detail": "main",
+        "documentation": {}
+    }
+]

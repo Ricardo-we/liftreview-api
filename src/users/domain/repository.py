@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 from typing import List
-from domain.entities import User, WeightHistory
+from src.users.domain.entities import User, WeightHistory
 
 # Interfaz de repositorio para el Usuario
 class UserRepository(ABC):
@@ -15,11 +15,11 @@ class UserRepository(ABC):
     @abstractmethod
     async def update(self, user: User) -> User:
         pass
-
+    
     @abstractmethod
-    async def delete(self, user: User) -> None:
+    async def get_by_email(self, email: str) -> User:
         pass
-
+    
 # Interfaz de repositorio para el Historial de Peso
 class WeightHistoryRepository(ABC):
     @abstractmethod

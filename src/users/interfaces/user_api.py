@@ -1,13 +1,21 @@
 from fastapi import APIRouter, Depends
-from schemas.user_schema import UserCreate, UserOut
-from use_cases.create_user import CreateUser
-from infrastructure.repository_psql_impl import SQLAlchemyUserRepository
-from database import get_async_session
+from src.users.use_cases.user_usecase import UserUseCase
+from src.users.schemas.user_schema import UserCreate, UserLogin
+from src.users.infrastructure.database.sql_user_repository import SqlUserRepository
+from src.users.infrastructure.database.sql_user_repository import SqlUserRepository
+from src.users.domain.entities import User
 
-router = APIRouter()
+router = APIRouter(prefix="/users", tags=["users"])
 
-@router.post("/users", response_model=UserOut)
-async def create_user(user: UserCreate, session = Depends(get_async_session)):
-    repo = SQLAlchemyUserRepository(session)
-    use_case = CreateUser(repo)
-    return await use_case.execute(user.name, user.email)
+def get_usecase() -> UserUseCase:
+    return UserUseCase(SqlUserRepository())
+
+@router.post("/")
+async def create_user(user: UserCreate, use_case: UserUseCase = Depends(get_usecase)):
+    return await use_case.create_user(user)
+
+@router.post("/login")
+async def get_user(user: UserLogin, use_case: UserUseCase = Depends(get_usecase)):
+    return await use_case.login(user.email, user.password)
+
+
