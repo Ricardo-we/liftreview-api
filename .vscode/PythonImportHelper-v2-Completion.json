@@ -161,6 +161,14 @@
         "documentation": {}
     },
     {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "OAuth2PasswordBearer",
         "importPath": "fastapi.security",
         "description": "fastapi.security",
@@ -513,27 +521,67 @@
         "documentation": {}
     },
     {
+        "label": "ResponseException",
+        "importPath": "src.core.exceptions.response_exception",
+        "description": "src.core.exceptions.response_exception",
+        "isExtraImport": true,
+        "detail": "src.core.exceptions.response_exception",
+        "documentation": {}
+    },
+    {
+        "label": "ResponseCodes",
+        "importPath": "src.core.exceptions.response_exception",
+        "description": "src.core.exceptions.response_exception",
+        "isExtraImport": true,
+        "detail": "src.core.exceptions.response_exception",
+        "documentation": {}
+    },
+    {
+        "label": "ResponseException",
+        "importPath": "src.core.exceptions.response_exception",
+        "description": "src.core.exceptions.response_exception",
+        "isExtraImport": true,
+        "detail": "src.core.exceptions.response_exception",
+        "documentation": {}
+    },
+    {
+        "label": "DoesNotExist",
+        "importPath": "tortoise.exceptions",
+        "description": "tortoise.exceptions",
+        "isExtraImport": true,
+        "detail": "tortoise.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "DoesNotExist",
+        "importPath": "tortoise.exceptions",
+        "description": "tortoise.exceptions",
+        "isExtraImport": true,
+        "detail": "tortoise.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "DoesNotExist",
+        "importPath": "tortoise.exceptions",
+        "description": "tortoise.exceptions",
+        "isExtraImport": true,
+        "detail": "tortoise.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "OkResponse",
+        "importPath": "src.core.response.responses",
+        "description": "src.core.response.responses",
+        "isExtraImport": true,
+        "detail": "src.core.response.responses",
+        "documentation": {}
+    },
+    {
         "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
         "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "DoesNotExist",
-        "importPath": "tortoise.exceptions",
-        "description": "tortoise.exceptions",
-        "isExtraImport": true,
-        "detail": "tortoise.exceptions",
-        "documentation": {}
-    },
-    {
-        "label": "DoesNotExist",
-        "importPath": "tortoise.exceptions",
-        "description": "tortoise.exceptions",
-        "isExtraImport": true,
-        "detail": "tortoise.exceptions",
         "documentation": {}
     },
     {
@@ -567,6 +615,41 @@
         "description": "src.users.interfaces.weight_history_api",
         "isExtraImport": true,
         "detail": "src.users.interfaces.weight_history_api",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "ResponseException",
+        "kind": 6,
+        "importPath": "src.core.exceptions.response_exception",
+        "description": "src.core.exceptions.response_exception",
+        "peekOfCode": "class ResponseException(Exception):\n    \"\"\"Base class for exceptions that occur during response processing.\"\"\"\n    def __init__(self,exception: Exception, message: str, code: str):\n        super().__init__(message)\n        self.exception = exception\n        self.message = message\n        self.code = code\n    def __dict__(self):\n        return {\n            \"code\": self.code,",
+        "detail": "src.core.exceptions.response_exception",
+        "documentation": {}
+    },
+    {
+        "label": "ResponseCodes",
+        "kind": 6,
+        "importPath": "src.core.exceptions.response_exception",
+        "description": "src.core.exceptions.response_exception",
+        "peekOfCode": "class ResponseCodes:\n    NOT_FOUND = \"not_found\"\n    UNAUTHORIZED = \"unauthorized\"\n    FORBIDDEN = \"forbidden\"\n    INTERNAL_SERVER_ERROR = \"internal_server_error\"\n    BAD_REQUEST = \"bad_request\"\n    UNKNOWN_ERROR = \"unknown_error\"\n    SUCCESS = \"success\"\ndef get_response_status_by_code(code=ResponseCodes.UNKNOWN_ERROR) -> str:\n    return {",
+        "detail": "src.core.exceptions.response_exception",
+        "documentation": {}
+    },
+    {
+        "label": "get_response_status_by_code",
+        "kind": 2,
+        "importPath": "src.core.exceptions.response_exception",
+        "description": "src.core.exceptions.response_exception",
+        "peekOfCode": "def get_response_status_by_code(code=ResponseCodes.UNKNOWN_ERROR) -> str:\n    return {\n        ResponseCodes.NOT_FOUND: 404,\n        ResponseCodes.UNAUTHORIZED: 401,\n        ResponseCodes.FORBIDDEN: 403,\n        ResponseCodes.INTERNAL_SERVER_ERROR: 500,\n        ResponseCodes.BAD_REQUEST: 400,\n        ResponseCodes.UNKNOWN_ERROR: 500,\n        ResponseCodes.SUCCESS: 200,\n    }.get(code, 500)",
+        "detail": "src.core.exceptions.response_exception",
         "documentation": {}
     },
     {
@@ -615,6 +698,15 @@
         "documentation": {}
     },
     {
+        "label": "OkResponse",
+        "kind": 6,
+        "importPath": "src.core.response.responses",
+        "description": "src.core.response.responses",
+        "peekOfCode": "class OkResponse:\n    \"\"\"\n    Class representing a successful response.\n    \"\"\"\n    def __init__(self, message: str, code: int = 200):\n        self.message = message\n        self.code = code\n    def __repr__(self):\n        return f\"OkResponse(message={self.message}, code={self.code})\"",
+        "detail": "src.core.response.responses",
+        "documentation": {}
+    },
+    {
         "label": "WeightHistory",
         "kind": 6,
         "importPath": "src.users.domain.entities",
@@ -646,7 +738,7 @@
         "kind": 6,
         "importPath": "src.users.domain.repository",
         "description": "src.users.domain.repository",
-        "peekOfCode": "class WeightHistoryRepository(ABC):\n    @abstractmethod\n    async def create(self, weight_history: WeightHistory) -> WeightHistory:\n        pass\n    @abstractmethod\n    async def get_by_user(self, user_id: int) -> List[WeightHistory]:\n        pass",
+        "peekOfCode": "class WeightHistoryRepository(ABC):\n    @abstractmethod\n    async def create(self, weight_history: WeightHistory) -> WeightHistory:\n        pass\n    @abstractmethod\n    async def get_by_user(self, user_id: int) -> List[WeightHistory]:\n        pass\n    @abstractmethod\n    async def delete(self, weight_history: WeightHistory) -> None:\n        pass",
         "detail": "src.users.domain.repository",
         "documentation": {}
     },
@@ -682,7 +774,7 @@
         "kind": 6,
         "importPath": "src.users.infrastructure.database.sql_weight_history_repository",
         "description": "src.users.infrastructure.database.sql_weight_history_repository",
-        "peekOfCode": "class SqlWeightHistoryRepository(WeightHistoryRepository):\n    async def create(self, weight_history: WeightHistory) -> WeightHistory:\n        weight_history_model = WeightHistoryModel(user_id=weight_history.user_id, weight=weight_history.weight,\n                                                  date=weight_history.date)\n        await weight_history_model.save()\n        return weight_history_model.to_domain()\n    async def get_by_user(self, user_id: int) -> list[WeightHistory]:\n        histories = await WeightHistoryModel.filter(user_id=user_id).all()\n        return [history.to_domain() for history in histories]\n    async def create(self, weight_history: WeightHistory) -> WeightHistory:",
+        "peekOfCode": "class SqlWeightHistoryRepository(WeightHistoryRepository):\n    async def get_by_user(self, user_id: int) -> list[WeightHistory]:\n        histories = await WeightHistoryModel.filter(user_id=user_id).all()\n        return [history.to_domain() for history in histories]\n    async def create(self, weight_history: WeightHistory) -> WeightHistory:\n        weight_history_model = WeightHistoryModel(user_id=weight_history.user_id, weight=weight_history.weight,\n                                                  date=weight_history.date)\n        await weight_history_model.save()\n        return weight_history_model.to_domain()\n    async def delete(self, weight_history: WeightHistory) -> None:",
         "detail": "src.users.infrastructure.database.sql_weight_history_repository",
         "documentation": {}
     },
@@ -772,7 +864,7 @@
         "kind": 6,
         "importPath": "src.users.use_cases.weight_history_usecase",
         "description": "src.users.use_cases.weight_history_usecase",
-        "peekOfCode": "class WeightHistoryUseCase:\n    def __init__(self, weight_history_repository: WeightHistoryRepository):\n        self.weight_history_repository = weight_history_repository\n    # Crear historial de peso\n    async def create_weight_history(self, user_id: int, weight_data: WeightHistoryCreate) -> WeightHistory:\n        weight_history = WeightHistory(user_id=user_id, weight=weight_data.weight, date=date.today())\n        return await self.weight_history_repository.create(weight_history)\n    # Obtener historial de peso por usuario\n    async def get_weight_history(self, user_id: int) -> list[WeightHistory]:\n        return await self.weight_history_repository.get_by_user(user_id)",
+        "peekOfCode": "class WeightHistoryUseCase:\n    def __init__(self, weight_history_repository: WeightHistoryRepository):\n        self.weight_history_repository = weight_history_repository\n    async def create_weight_history(self, user_id: int, weight_data: WeightHistoryCreate) -> WeightHistory:\n        weight_history = WeightHistory(user_id=user_id, weight=weight_data.weight, date=date.today())\n        return await self.weight_history_repository.create(weight_history)\n    async def get_weight_history(self, user_id: int) -> list[WeightHistory]:\n        return await self.weight_history_repository.get_by_user(user_id)\n    async def delete(self, user_id: int, weight_history_id: int) -> None:\n        weight_history = await self.weight_history_repository.get_by_id(weight_history_id)",
         "detail": "src.users.use_cases.weight_history_usecase",
         "documentation": {}
     },
@@ -781,7 +873,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "app = FastAPI()\napp.include_router(\n    user_router\n)\napp.include_router(\n    weight_history_router\n)\nregister_tortoise(\n    app,\n    db_url=\"postgres://postgres:password@localhost:5432/liftreview\",",
+        "peekOfCode": "app = FastAPI()\n@app.exception_handler(ResponseException)\nasync def response_exception_handler(request: Request, exc: ResponseException):\n    return JSONResponse(\n        status_code=exc.get_status_code(),\n        content=exc.__dict__(),\n    )\napp.include_router(\n    user_router\n)",
         "detail": "main",
         "documentation": {}
     },

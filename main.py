@@ -1,9 +1,21 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from tortoise.contrib.fastapi import register_tortoise
 from src.users.interfaces.user_api import router as user_router
 from src.users.interfaces.weight_history_api import router as weight_history_router
 
+from fastapi.responses import JSONResponse
+from src.core.exceptions.response_exception import ResponseException
+
 app = FastAPI()
+
+
+@app.exception_handler(ResponseException)
+async def response_exception_handler(request: Request, exc: ResponseException):
+    return JSONResponse(
+        status_code=exc.get_status_code(),
+        content=exc.__dict__(),
+    )
+    
 
 app.include_router(
     user_router
@@ -11,6 +23,8 @@ app.include_router(
 app.include_router(
     weight_history_router
 )
+
+
 
 register_tortoise(
     app,

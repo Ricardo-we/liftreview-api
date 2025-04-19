@@ -29,3 +29,11 @@ class WeightHistoryRepository(ABC):
     @abstractmethod
     async def get_by_user(self, user_id: int) -> List[WeightHistory]:
         pass
+    
+    @abstractmethod
+    async def delete(self, weight_history: WeightHistory) -> None:
+        pass
+    
+    @abstractmethod 
+    def get_by_id(self, weight_history_id: int) -> WeightHistory:
+        pass
